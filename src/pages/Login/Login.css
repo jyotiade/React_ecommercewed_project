@@ -1,0 +1,28 @@
+
+#s1{
+     /* background-color: lightseagreen; */
+     background-image: url("https://img.freepik.com/premium-photo/candles-marble-table-with-white-background_916191-5137.jpg");
+     width: 500px;
+     height: 500px;
+     margin-top: 150px;
+     margin-left: 500px;
+     border-radius: 50px 50px 50px 50px;
+}
+#cen1{
+    padding-top: 100px;
+}
+#s2 input{
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 40px 40px 40px 40px;
+    padding-left: 15px;
+}
+#s3 button{
+    width: 130px;
+    height: 40px;
+    margin-left: -100px;
+    margin-top: 50px;
+    border-radius: 40px 40px 40px 40px;
+    
+}

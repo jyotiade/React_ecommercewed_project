@@ -1,0 +1,939 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500&display=swap');
+
+* {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* =========================navbar=========================================== */
+#navbar {
+    display: flex;
+    padding-left: 300px;
+    background-color: rgb(179, 216, 216);
+    height: 70px;
+    font-size: 20px
+}
+
+#navbar div a {
+    padding-top: 1000px
+}
+
+#navbar div {
+    padding-left: 50px;
+    background-color: rgb(179, 216, 216);
+    padding-top: 20px;
+}
+
+#new {
+    font-size: 40px;
+    padding-left: 650px;
+    background-color: rgb(179, 216, 216);
+    ;
+}
+
+#navbar div button {
+    padding: 10px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#bar {
+    display: none;
+}
+
+/* ================== */
+@media (max-width:412px) {
+    #new {
+        display: none;
+    }
+
+    #navbar {
+        display: none;
+        
+    }
+
+    #bar {
+        display: block;
+    }
+
+    #navbar div {
+        padding-left: 10px;
+        background-color: rgb(179, 216, 216);
+        padding-top: 20px;
+    }
+
+    #show:checked~#navbar {
+        display: block;
+        padding-left: 100px;
+        background-color: rgb(179, 216, 216);
+        height: 500px;
+        font-size: 20px;
+        position: absolute;
+        width: 200px;
+        border: 1px solid black;
+        margin-top: 40px;
+    }
+
+    #navbar div button {
+        display: block;
+        width: 70px;
+        background-color: rgb(179, 216, 216);
+    }
+
+}
+
+/* ================================nav==================================== */
+#nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(219, 225, 224);
+    padding-top: 20px;
+}
+
+#nav div {
+    margin-left: 30px;
+
+}
+
+#nav1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(179, 216, 216);
+    padding-top: 20px;
+}
+
+#nav1 div {
+    margin: 20px;
+}
+
+#div1 {
+    font-size: 40px;
+    padding-left: 170px;
+}
+
+#nav input {
+    width: 350px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: -500px;
+    padding-left: 20px;
+
+}
+
+#i1 {
+    margin-left: 100px;
+}
+
+#l1 {
+    display: flex;
+    justify-content: center;
+}
+
+#i1 {
+    margin-right: -100px;
+}
+
+#i2 {
+    margin-right: -800px;
+}
+
+#bar {
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    float: right;
+    margin: 5px;
+    /* display: none;   */
+}
+
+@media (max-width:412px) {
+    #main {
+        display: none;
+    }
+
+    #show:checked~#main #nav1 {
+        display: block;
+    }
+}
+
+
+/* ========================home====================================== */
+#home {
+
+    height: 600px;
+    width: 100%;
+    background-image: url("https://skins.minimog.co/cdn/shop/files/1_8313f3b7-a2a4-4761-a816-e33a4e45f8c7.jpg?v=1623830923&width=2000");
+    margin-left: -300px;
+    padding-right: 300px;
+    padding-top: -250px;
+}
+
+#aside {
+    float: left;
+}
+
+#aside p {
+    font-size: 50px;
+    font-style: normal;
+    margin-left: 400px;
+    margin-top: -10px;
+}
+
+#d1 {
+    margin-left: 400px;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+#d2 {
+    margin-left: 400px;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+/* ============================= */
+@media (max-width:412px) {
+    #home {
+
+        /* height:200px; */
+        /* width:50%;
+         background-image: url("https://skins.minimog.co/cdn/shop/files/1_8313f3b7-a2a4-4761-a816-e33a4e45f8c7.jpg?v=1623830923&width=2000"); */
+        margin-left: -300px;
+        padding-right: 300px;
+        padding-top: -250px;
+    }
+
+    #aside {
+        float: left;
+    }
+
+    #aside p {
+        font-size: 50px;
+        font-style: normal;
+        margin-left: 400px;
+        margin-top: -10px;
+    }
+
+    #d1 {
+        margin-left: 400px;
+        font-size: 30px;
+        margin-top: 150px;
+        margin-bottom: 60px;
+    }
+
+    #d2 {
+        margin-left: 400px;
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+}
+
+/* ========================================sec1=============================================== */
+#div1 {
+    display: flex;
+    justify-content: center;
+    margin-left: -180px;
+    margin-bottom: 40px;
+}
+
+#div1 div img {
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+
+}
+
+#sec1 center {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 40px;
+}
+
+#div1 div div {
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+/* =============================== */
+@media (max-width:412px) {
+    #div1 {
+        display: block;
+        /* justify-content: center; */
+        /* margin-left: -180px;
+        margin-bottom: 40px; */
+    }
+
+    #div1 div img {
+        width: 350px;
+        height: 400px;
+        /* margin: 10px; */
+
+    }
+
+    #sec1 center {
+        /* margin-top: 70px;
+        margin-bottom: 70px; */
+        font-size: 40px;
+    }
+
+    #div1 div div {
+        font-size: 20px;
+        /* margin-left: 100px; */
+
+    }
+
+}
+
+/* ===================================sec2========================================= */
+
+#sec2 div {
+    font-size: 17px;
+    margin: 100px;
+}
+
+/* ========================== */
+@media (max-width:412px) {
+    #sec2 div {
+        font-size: 20px;
+
+    }
+}
+
+/* ========================sec3================================== */
+#sec3 {
+    background-color: antiquewhite;
+}
+
+#s3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+
+}
+
+#s3 div div {
+    margin: 10px;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: -10px;
+
+}
+
+#s3 div {
+    margin-top: 30px;
+
+}
+
+#s3 {
+    margin-left: 250px;
+}
+
+#s3 div div img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 20px;
+    margin-bottom: 60px;
+    padding-top: 20px;
+}
+
+#s3 span {
+    margin-bottom: 200px;
+    margin-left: 150px;
+    padding-top: -400px;
+    font-size: 20px;
+}
+
+#sec3 aside {
+    float: left;
+    margin-top: 140px;
+}
+
+#sec3 aside div {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-style: oblique;
+    margin-left: 30px;
+}
+
+#sec3 aside p {
+    font-size: 19px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+/*============================ */
+@media (max-width:412px) {
+    #sec3 {
+        background-color: antiquewhite;
+        padding-bottom: 100px;
+    }
+
+    #sec3 aside {
+        /* float: left; */
+        margin-top: 60px;
+        margin-left: 80px;
+        margin-bottom: 30px;
+    }
+
+    #sec3 aside div {
+        font-size: 45px;
+        margin-bottom: 50px;
+        font-style: oblique;
+    }
+
+    #sec3 aside p {
+        font-size: 25px;
+        margin-bottom: 30px;
+
+    }
+
+
+    #s3 {
+        display: block;
+        margin-top: 320px;
+        margin-left: -60px;
+        padding-left: 90px;
+        margin-right: 20px;
+
+    }
+
+    /* #s3 div div {
+        margin: 5px;
+        background-color: white;
+        margin-top: 40px;
+        margin-bottom: -10px;
+       
+    
+    } */
+
+    /* #s3 div {
+        /* margin-top: 30px; */
+    /* text-align: center;} */
+
+
+
+    /* #s3 {
+        /* margin-left: 250px; */
+    /* flex-direction: column;
+        align-items: center;
+     } */
+
+
+
+    #s3 div div img {
+
+
+        border-radius: 60%;
+
+
+
+    }
+
+    #s3 span {
+        margin-bottom: 300px;
+        margin-left: 120px;
+        padding-top: -400px;
+        font-size: 20px;
+    }
+
+
+
+
+}
+
+/* ==========================================sec4======================================= */
+
+#sec4 aside {
+    float: left;
+
+}
+
+#sec4 aside div img {
+    width: 500px;
+    height: 500px;
+    border-radius: 0px 100px 0px 100px;
+    margin-left: 80px;
+
+}
+
+#sec4 {
+    margin-top: 60px;
+    margin-bottom: 200px;
+}
+
+#sec4 div div {
+    padding-top: 150px;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+#sec4 div p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/* =============================== */
+@media (max-width:412px) {
+    #sec4 aside {
+
+        float: right;
+        margin-left: -400px;
+    }
+
+    #sec4 aside div img {
+        width: 350px;
+        height: 350px;
+        border-radius: 0px 80px 0px 50px;
+        padding-right: 30px;
+        margin-top: 20px;
+
+    }
+
+    #sec4 {
+        margin-top: 30px;
+        margin-bottom: 200px;
+    }
+
+    #sec4 div div {
+        padding-top: 450px;
+        font-size: 30px;
+        margin-bottom: 40px;
+        margin-left: 37px;
+    }
+
+    #sec4 div p {
+        padding-top: 20px;
+        font-size: 20px;
+        padding-left: 60px;
+
+    }
+
+
+}
+
+/* =======================================sec5================================ */
+#sec5 {
+    display: flex;
+    background-color: rgb(230, 172, 190);
+
+}
+
+#sec5 div {
+    margin: 20px;
+}
+
+#div6 div img {
+    /* margin-left: 400px; */
+    width: 850px;
+    height: 600px;
+}
+
+#div5 div {
+    /* margin-top: 100px;
+    margin-left: 180px; */
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+#div5 p {
+    /* margin-top: 40px;
+    margin-left: 200px; */
+    font-size: 18px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+
+#div5 span {
+
+    font-size: 14px;
+    margin-left: 130px;
+
+}
+
+/* ================================= */
+
+@media (max-width:412px) {
+    #sec5 {
+        display: block;
+        background-color: rgb(230, 172, 190);
+
+    }
+
+
+    #div6 div img {
+        /* margin-left: 10px; */
+        width: 400px;
+        height: 400px;
+    }
+
+    #div5 div {
+        margin-top: 70px;
+        margin-left: 30px;
+        font-size: 35px;
+        margin-right: -500px;
+    }
+
+    #div5 p {
+        margin-top: 40px;
+        margin-left: 30px;
+
+    }
+
+    #div5 span {
+        margin-top: 40px;
+        margin-left: 40px;
+        font-size: 18px;
+        margin-right: -400px;
+        margin-bottom: 80px;
+    }
+}
+
+/* =========================sec6============================== */
+#div7 {
+    display: flex;
+    justify-content: center;
+}
+
+#div7 div img {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 0px 50px 0px 50px;
+}
+
+#c1 div {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#sec6 {
+    margin-top: 100px;
+}
+
+#c1 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* ==================================== */
+
+@media (max-width:412px) {
+    #div7 {
+        display: block;
+
+    }
+
+    /* #div7 div img {
+        width: 300px;
+        height: 300px;
+        margin: 30px;
+        border-radius: 0px 50px 0px 50px;
+    } */
+
+    #c1 div {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    /* #sec6 {
+        margin-top: 100px;
+    } */
+
+    #c1 p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+/* ===========================footer===================================== */
+#f1 {
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
+}
+
+#f1 div {
+    margin: 130px;
+    margin-top: 100px;
+}
+
+#l1 {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+#f1 div ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+#id1 div {
+    margin-top: 30px;
+    font-size: 35px;
+    margin-left: 100px;
+}
+
+#id1 p {
+    margin-top: -100px;
+    font-size: 20px;
+}
+
+#id1 input {
+    width: 400px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+#id2 {
+    list-style-type: none;
+    display: flex;
+    margin-left: 40px;
+    margin-top: -100px;
+}
+
+#id2 li {
+    margin: 10px;
+}
+
+#id3 img {
+    width: 300px;
+    height: 40px;
+    margin-left: -100px;
+
+}
+
+@media (max-width:412px) {
+
+    #f1 {
+        display: block;
+        /* justify-content: center; */
+        /* margin-left: -100px; */
+    }
+
+    #f1 div {
+        display: block;
+        margin: 100px;
+        margin-top: 40px;
+    }
+
+    #l1 {
+        font-size: 23px;
+        margin-left: -90px;
+        padding: 10px;
+    }
+    #f1 div ul{
+       margin-top: -20px;
+    }
+
+    #f1 div ul li {
+        /* margin-bottom: 10px; */
+        list-style-type: none;
+    }
+
+    /* #id1 {
+        /* margin-top: 10px; */
+    
+
+    #id1 div {
+        font-size: 20px;
+        margin-left: 10px;
+        padding-bottom: 30px;
+        padding-top: -300px;
+
+    }
+
+    #id1 p {
+        /* margin-top: -100px; */
+        font-size: 17px;
+      
+    }
+
+    #id1 input {
+        width: 200px;
+        height: 20px;
+        padding-top: 4px;
+         border: 1px solid black;
+         margin-bottom: 30px;
+    
+    }
+        
+    #id2 {
+        list-style-type: none;
+        display: flex;
+        margin-left: 60px;
+        margin-top: -100px;
+    }
+
+    #id2 li {
+        margin: 10px;
+    }
+    
+    #id3 img {
+        width: 300px;
+        height: 40px;
+        margin-left: -100px;
+    
+    }
+}
+
+/* ===================================================shop menu================================== */
+#shop {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+    margin-left: -300px;
+
+}
+
+#shop div {
+    background-color: rgb(224, 227, 225);
+}
+
+#shop div div {
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(7, 67, 119);
+
+}
+
+#s {
+    background-color: rgb(200, 211, 204);
+}
+
+@media (max-width:412px) {
+    #shop {
+        display: none;
+       
+    
+    }
+}
+
+/* ===============================================product page======================================= */
+.product-card {
+    width: 300px;
+    background-color: #b8e5d4;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 40px;
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-details {
+    padding: 20px;
+}
+
+.product-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 1.1em;
+    color: #e44d26;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #e44d26;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cardouter {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* overflow-y: scroll;
+    height: 800px; */
+    justify-content: center;
+}
+
+#n1 {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    margin-right: -400px;
+    margin-left: 300px;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+li {
+    margin: 10px;
+}
+
+img {
+    width: 100px;
+}
+
+#n1 li button {
+    width: 60px;
+    padding: 10px;
+
+}
+
+.product-card {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+/* ===================================== */
+#a1{
+    margin-bottom: 20px;
+    
+}
+#a1 button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(156, 220, 217);
+}
+#a1 button:hover{
+    background-color: rgb(247, 137, 153);
+}
